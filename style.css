@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    background: linear-gradient(#00000075, #00000075) , linear-gradient(#00000075, #00000075) , url("media/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.typed-js {
+    width: 635px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 350px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+span.name {
+    color: orangered;
+}
+
+h2 {
+    font-size: 36px;
+    color: whitesmoke;
+}
+
+span.typed {
+    color: orangered;
+    margin-left: 10px;
+}
+img{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    top: 790px;
+    left: 150px;
+    float: left;
+    border: 3px solid skyblue;
+    box-shadow: 0px 0px 30px 10px cornflowerblue;
+}
+h3 {
+    width: 250px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: blue;
+    padding-top: 25px;
+}
+
+.about-me {
+    background: #d88a22cf;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.content {
+    width: 700px;
+    margin-left: 100px;
+}
+
+p.about-des {
+    width: 660px;
+    height: 300px;
+    padding-top: 15px;
+    margin-left: 431px;
+    color: darkblue;
+    font-size: 20px;
+    line-height: 30px;
+}
+h3.fav-things {
+    width: 420px;
+    padding-bottom: 25px;
+}
+
+.about-more {
+    background: #d6d249bf;
+    border: 2px solid cadetblue;
+    padding: 10px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.content-fav {
+    width: 400px;
+    float: left;
+    border: 1px solid indianred;
+    margin-left: 12px;
+    padding: 10px;
+}
+h3.fav-suggest {
+    width: 400px;
+    padding-bottom: 25px;
+}
+
+.suggestion {
+    background: aquamarine;
+    padding: 20px;
+}
+
+h5 {
+    color: red;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 75px;
+}
+
+ol {
+    line-height: 25px;
+    margin-left: 60px;
+}
+footer {
+    height: 80px;
+    background: #fb0527fa;
+}
+
+p.footer-sec {
+    width: 320px;
+    margin: 0 auto;
+    padding-top: 30px;
+    color: chartreuse;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
