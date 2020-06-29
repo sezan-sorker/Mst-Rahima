@@ -130,3 +130,141 @@ a {
     text-decoration: none;
     text-transform: capitalize;
 }
+@media (max-width: 468px) {
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .container{
+        background: linear-gradient(#00000075, #00000075) , linear-gradient(#00000075, #00000075) , url("media/1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    .typed-js {
+        width: 100%;
+        height: 500px;
+        padding-left: 20px;
+        padding-top: 350px;
+    }
+    
+    h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+        color: whitesmoke;
+    }
+    
+    span.name {
+        color: orangered;
+    }
+    
+    h2 {
+        font-size: 36px;
+        color: whitesmoke;
+    }
+    
+    span.typed {
+        color: orangered;
+        margin-left: 10px;
+    }
+    img{
+        width: 300px;
+        height: 330px;
+        position: absolute;
+        top: 690px;
+        left: 60px;
+        float: left;
+        border: 3px solid skyblue;
+        box-shadow: 0px 0px 30px 10px cornflowerblue;
+    }
+    h3 {
+        width: 100%;
+        padding-left:30px;
+        font-size: 38px;
+        color: blue;
+        padding-top: 200px;
+        overflow: hidden;
+    }
+    
+    .about-me {
+        background: #d88a22cf;
+        overflow: hidden;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+    
+    p.about-des {
+        width: 90%;
+        height: 500px;
+        padding: 15px;
+        color: darkblue;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h3.fav-things {
+        width: 100%;
+        font-size:25px;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    
+    .about-more {
+        width:100%;
+        background: #d6d249bf;
+        border: 2px solid cadetblue;
+        padding: 10px;
+        overflow: hidden;
+    }
+    .content-fav {
+        width: 90%;
+        margin-bottom:20px;
+        border: 1px solid indianred;
+    }
+    h3.fav-suggest {
+        width: 100%;
+        font-size:32px;
+        padding-top:30px;
+        padding-left:10px;
+        padding-bottom: 25px;
+    }
+    
+    .suggestion {
+        background: aquamarine;
+        padding: 20px;
+    }
+    
+    h5 {
+        color: red;
+        font-size: 25px;
+        padding-bottom: 20px;;
+    }
+    
+    ol {
+        line-height: 25px;
+        margin-left: 20px;
+    }
+    footer {
+        width:100%;
+        height: 80px;
+        background: #fb0527fa;
+    }
+    
+    p.footer-sec {
+        width: 320px;
+        margin: 0 auto;
+        padding-top: 30px;
+        color: chartreuse;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    a {
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+}
